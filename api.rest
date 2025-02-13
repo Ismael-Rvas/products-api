@@ -6,7 +6,7 @@ content-type: application/json
 { 
     "name": "Mesa", 
     "price": 20, 
-    "img": "",
+    "img": "https://res.cloudinary.com/ismaelrvas/image/upload/v1739479470/portada_mayonesas_finwma.png",
     "inventoryDate": "2023-01-01"
 }
 
@@ -18,7 +18,7 @@ content-type: application/json
 { 
     "name": "Sillas", 
     "price": 21, 
-    "img": "",
+    "img": "https://res.cloudinary.com/ismaelrvas/image/upload/v1739479470/aloe-vera-agua-coco-1_bgjty9.webp",
     "inventoryDate": "2023-01-01"
 }
 
@@ -29,44 +29,44 @@ content-type: application/json
 
 ###
 
-GET http://localhost:3000/api/products/6544f16661269657e5324e80 HTTP/1.1
+GET http://localhost:3000/api/products/67ae4be70f97486ecb9a05a0 HTTP/1.1
 content-type: application/json
 
 ###
 
-PUT http://localhost:3000/api/products/655a9b3e8b8747bc6a13a543 HTTP/1.1
+PUT http://localhost:3000/api/products/67ae4c120f97486ecb9a05a1 HTTP/1.1
 content-type: application/json
 
 { 
     "name": "Armario", 
     "price": 42, 
-    "img": "",
+    "img": "https://res.cloudinary.com/ismaelrvas/image/upload/v1739479451/producto-og_dyq84g.webp",
     "inventoryDate": "2023-01-01"
 }
 
 ###
 
-DELETE http://localhost:3000/api/products/6544f16661269657e5324e80 HTTP/1.1
+DELETE http://localhost:3000/api/products/67ae4b570f97486ecb9a059e HTTP/1.1
 content-type: application/json
 
 ###
 
-DELETE https://nxapi-mongodb.vercel.app/api/products/6542da20c20d9ad95c739701 HTTP/1.1
+DELETE https://products-api-ismael.vercel.app/api/products/67ae4c120f97486ecb9a05a1 HTTP/1.1
 content-type: application/json
 
 ### 
 
-POST https://nxapi-mongodb.vercel.app/api/products HTTP/1.1
+POST https://products-api-ismael.vercel.app/api/products HTTP/1.1
 content-type: application/json
 
 { 
     "name": "Sillon", 
     "price": 42, 
-    "img": "",
+    "img": "https://res.cloudinary.com/ismaelrvas/image/upload/v1739479524/drugstorebeautyproducts-2048px-2867_p0l0l8.jpg",
     "inventoryDate": "2023-01-01"
 }
 
 ### 
 
-DELETE https://nxapi-mongodb.vercel.app/api/products/6542da35c20d9ad95c739702
+DELETE https://products-api-ismael.vercel.app/api/products/67ae4be70f97486ecb9a05a0
 content-type: application/json
